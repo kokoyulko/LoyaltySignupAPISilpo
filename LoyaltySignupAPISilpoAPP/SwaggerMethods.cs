@@ -39,8 +39,6 @@ namespace LoyaltySignupAPISilpoAPP
             return SwaggerHelper.CommitPostRequest(SwaggerHelper.serviceUrl + relativeUrl, JsonConvert.SerializeObject(v));
         }
 
-
-
         // Проверка кода доступа (для подтверждения телефона)
         //Нет возможности написать тесты из-за того что код доступа приходит на телефон.
         //В базе код доступа захэширован
@@ -58,7 +56,6 @@ namespace LoyaltySignupAPISilpoAPP
 
             return SwaggerHelper.CommitPostRequest(SwaggerHelper.serviceUrl + relativeUrl, JsonConvert.SerializeObject(v));
         }
-
 
         // Проверка e-mail (статус верификации в системе)
         public static string VerifyEmail(string email)

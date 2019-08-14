@@ -129,6 +129,7 @@ namespace LoyaltySignupAPISilpoAPPTest
             String email = InitialData.emailCorrect;
             string accessUrl = InitialData.accessUrlCorrect;
 
+
             //Сначала генерируем ссылку для подтверждения
             //expected
             Int32 expected_resultCodeGenerate = 0;

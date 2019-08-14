@@ -165,7 +165,7 @@ namespace LoyaltySignupAPISilpoAPPTest
             dynamic result = null;
             for (int i = 0; i < 6; i++)
             {
-                Thread.Sleep(190000);
+                Thread.Sleep(180000);
                 result = JsonConvert.DeserializeObject(SwaggerMethods.GenerateEmailAccessHash(email, accessUrl));
             }
 

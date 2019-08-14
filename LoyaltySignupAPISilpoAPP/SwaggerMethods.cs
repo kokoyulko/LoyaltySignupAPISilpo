@@ -73,7 +73,6 @@ namespace LoyaltySignupAPISilpoAPP
         }
 
 
-
         // Генерация ссылки для подтверждения e-mail
         public static string GenerateEmailAccessHash(string email, string accessUrl)
         {

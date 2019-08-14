@@ -23,8 +23,7 @@ namespace LoyaltySignupAPISilpoAPP
 
             return SwaggerHelper.CommitPostRequest(SwaggerHelper.serviceUrl + relativeUrl, JsonConvert.SerializeObject(v));
         }
-
-
+        
         // Генерация кода доступа для проверки телефона
         public static string GenerateAccessCode(string phoneNumber)
         {
@@ -39,6 +38,7 @@ namespace LoyaltySignupAPISilpoAPP
 
             return SwaggerHelper.CommitPostRequest(SwaggerHelper.serviceUrl + relativeUrl, JsonConvert.SerializeObject(v));
         }
+
 
         // Проверка кода доступа (для подтверждения телефона)
         //Нет возможности написать тесты из-за того что код доступа приходит на телефон.

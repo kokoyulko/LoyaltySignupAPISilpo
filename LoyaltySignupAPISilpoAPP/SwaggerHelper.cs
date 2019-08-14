@@ -40,9 +40,7 @@ namespace LoyaltySignupAPISilpoAPP
             }
             catch (Exception e)
             {
-
                 throw e;
-
             }
             return resp;
         }

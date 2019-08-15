@@ -89,6 +89,7 @@ namespace LoyaltySignupAPISilpoAPP
             return SwaggerHelper.CommitPostRequest(SwaggerHelper.serviceUrl + relativeUrl, JsonConvert.SerializeObject(v));
         }
 
+
         // Проверка перехода по ссылке (для подтверждения e-mail)
         public static string VerifiedEmailAccessHash(string hashStr)
         {

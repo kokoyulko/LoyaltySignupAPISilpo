@@ -141,6 +141,7 @@ namespace LoyaltySignupAPISilpoAPPTest
             {
                 Thread.Sleep(180000);
                 result = JsonConvert.DeserializeObject(SwaggerMethods.GenerateAccessCode(phoneNumber));
+
             }
 
             //Assert

@@ -14,6 +14,8 @@ namespace LoyaltySignupAPISilpoAPPTest
         {
             //arrange
             string phoneNumber = InitialData.phoneNumberEmpty;
+
+
             string error = "";
 
 
